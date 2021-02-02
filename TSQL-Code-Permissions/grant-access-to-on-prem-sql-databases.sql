@@ -1,8 +1,8 @@
-/*******************************************************************
+/*********************************************************************
 -- This is a sample code
--- always test the code before applying it to production env
+-- always test the code before applying it to production environment
 -- Change the @V_USER_NAME and @V_PASSWORD
-********************************************************************/
+**********************************************************************/
 
 USE master
 go
