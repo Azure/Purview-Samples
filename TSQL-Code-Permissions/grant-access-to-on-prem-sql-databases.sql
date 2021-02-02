@@ -1,3 +1,9 @@
+/********************************************************
+-- This is a sample code
+-- always test the code before apply it in production
+-- Change the @V_USER_NAME and @V_PASSWORD
+********************************************************/
+
 USE master
 go
 DECLARE @V_USER_NAME NVARCHAR(80)
@@ -14,7 +20,7 @@ DECLARE @I_ERRORSTATE INT
 Set these variables before executing the script
 ==================================================*/
 SET @V_USER_NAME = N'purview_scanner'
-SET @V_PASSWORD = N'HappyDays123'
+SET @V_PASSWORD = N'ChoseYourPassword'
 SET @V_STATEMENT_1 = 'CREATE LOGIN '+QUOTENAME(@V_USER_NAME)+' WITH PASSWORD=N'+''''+@V_PASSWORD+''''
 SET @V_PARAMETERS = N' ,DEFAULT_DATABASE=[master],CHECK_EXPIRATION=OFF,CHECK_POLICY=OFF'
 SET @V_STATEMENT_2 = @V_STATEMENT_1+@V_PARAMETERS
