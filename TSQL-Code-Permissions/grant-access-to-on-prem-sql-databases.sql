@@ -29,9 +29,7 @@ SET @V_ADD_USER ='USE ?'+' ALTER ROLE [db_datareader] ADD MEMBER '+QUOTENAME(@V_
 /*================================================
 Set the above variables before executing the script
 ==================================================*/
-print(@V_STATEMENT_2)
-
- 
+--print(@V_STATEMENT_2)
 
 IF NOT EXISTS (SELECT LOGINNAME FROM MASTER.DBO.SYSLOGINS 
                WHERE NAME = @V_USER_NAME)
@@ -58,7 +56,7 @@ END
 /*---------------------------------------------------------------
 == ADD the users
 ---------------------------------------------------------------*/
-PRINT(@V_CREATE_USER)
+-- PRINT(@V_CREATE_USER)
 BEGIN TRY 
             EXEC sp_MSforeachdb @V_CREATE_USER
             PRINT('The USER '+@V_USER_NAME+ ' HAS BEEN CREATED SUCCESSFULLY ON ALL DATABASES!')
