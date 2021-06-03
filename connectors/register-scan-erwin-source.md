@@ -62,6 +62,10 @@ To register a new erwin Mart in your data catalog, do the following:
 4.  On Register sources, select **erwin**. Select **Continue.**
     :::image type="content" source="media\register-scan-erwin-source\image1.png" alt-text="scan oracle" border="true":::
 
+![Graphical user interface, application, Word Description automatically
+generated](media\register-scan-erwin-source\image1.png){width="6.5in"
+height="3.2944444444444443in"}
+
 
 On the Register sources (erwin) screen, do the following:
 
