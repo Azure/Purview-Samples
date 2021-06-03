@@ -60,13 +60,10 @@ To register a new erwin Mart in your data catalog, do the following:
 2.  Select **Sources** on the left navigation.
 3.  Select **Register.**
 4.  On Register sources, select **erwin**. Select **Continue.**
-    :::image type="content" source="media\register-scan-erwin-source\image1.png" alt-text="scan oracle" border="true":::
-
-![Graphical user interface, application, Word Description automatically
-generated](media\register-scan-erwin-source\image1.png){width="6.5in"
-height="3.2944444444444443in"}
-
-
+    <img src="media\register-scan-erwin-source\image1.png"
+     alt="image1"
+     style="float: left; margin-right: 10px;" />
+    
 On the Register sources (erwin) screen, do the following:
 
 1.  Enter a **Name** that the data source will be listed within the
@@ -85,13 +82,17 @@ On the Register sources (erwin) screen, do the following:
 Data Modeler. Click on Mart -\> Connect to see details related to server
 name, port and application name.
 
-    :::image type="content" source="media\register-scan-erwin-source\image2.png" alt-text="scan oracle" border="true":::
+    <img src="media\register-scan-erwin-source\image2.png"
+     alt="image2"
+     style="float: left; margin-right: 10px;" />
 
 5.  Select a collection or create a new one (Optional)
 
 6.  Finish to register the data source.
 
-    :::image type="content" source="media\register-scan-erwin-source\image3.png" alt-text="scan oracle" border="true":::
+    <img src="media\register-scan-erwin-source\image3.png"
+     alt="image3"
+     style="float: left; margin-right: 10px;" />
 
 
 ## Creating and running a scan
@@ -155,7 +156,9 @@ To create and run a new scan, do the following:
     customer's VM to be used by scanning processes. This is dependent on
     the size of erwin Mart to be scanned.
 
-    :::image type="content" source="media\register-scan-erwin-source\image4.png" alt-text="scan oracle" border="true":::
+   <img src="media\register-scan-erwin-source\image4.png"
+     alt="image4"
+     style="float: left; margin-right: 10px;" />
 
 6.  Click on **Test connection.**
 
