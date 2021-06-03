@@ -108,8 +108,7 @@ To create and run a new scan, do the following:
     - Provide your Looker API3 key's client ID in the User name field
     - Save your Looker API3 key's client secret in the key vault's secret.
 
-    > [!Note]
-    > To access client ID and client secret, navigate to Looker -\>Admin -\> Users -\> Click on **Edit** on an user -\> Click on **EditKeys** -\> Use the Client ID and Client Secret or create a new one.
+    **Note:** To access client ID and client secret, navigate to Looker -\>Admin -\> Users -\> Click on **Edit** on an user -\> Click on **EditKeys** -\> Use the Client ID and Client Secret or create a new one.
     
     <img src="media\register-scan-looker-source\image3.png"
      alt="image3"
