@@ -15,6 +15,9 @@ Mart server. The metadata include:
 
 This data source also fetches Lineage between data assets.
 
+### **Note:** 
+Erwin as a source is currently supported in private preview. Please test this source in a **brand new Purview catalog** to avoid your exisitng catalog being broken. We look forward to hearing your feedback.
+
 ## Prerequisites
 
 1.  Set up the latest [self-hosted integration
